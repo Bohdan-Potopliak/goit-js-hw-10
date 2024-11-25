@@ -1,0 +1,46 @@
+.form {
+    width: 360px;
+    padding: 94px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form input[type="number"],
+.form textarea {
+    width: 360px;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form input[type="number"] {
+    height: 40px;
+}
+
+.form fieldset {
+    margin-bottom: 8px;
+}
+
+.form button {
+    width: 96px;
+    height: 40px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+}
